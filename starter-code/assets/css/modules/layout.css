@@ -1,2 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/* Container */
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
