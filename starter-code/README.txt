@@ -38,3 +38,13 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+Number and name of feature: Portfolio
+
+Estimate of time needed to complete: 2 hours
+Start time: 900
+
+Finish time: 1400
+
+Actual time needed to complete: 4 hours

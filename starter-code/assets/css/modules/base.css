@@ -9,15 +9,17 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
+    
 }
 
 body {
-    background: #fff;
+    background: rgb(114, 10, 10);
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
     color: #888;
+    
 }
 
     body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -36,13 +38,14 @@ input, textarea, select {
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
-    color: #888;
+    color: rgb(156, 112, 112);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: #666;
+    color: rgb(34, 45, 105);
     line-height: 1.5em;
+    background-color: rgb(184, 133, 133);
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
