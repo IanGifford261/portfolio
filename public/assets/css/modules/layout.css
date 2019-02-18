@@ -49,52 +49,15 @@ margin: 0 auto;
 max-width: 100%;
 width: 1400px;
 }
-
-#video-viewport { 
+.video {
     position: relative; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
+    width: 25em; 
+    height: 25em; 
     overflow: hidden; 
-    z-index: -1; 
+    opacity: 0.5;
+    z-index: auto;
+
 }
-video { display: block; 
-    width: 100%; 
-    height: auto;
-}
-.fullsize-video-bg {
-     height: 100%; 
-     overflow: hidden;
-}
-.fullsize-video-bg:before {
-    content: ""; 
-    background: rgba(114,45,0,.35); 
-    position: relative; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-.fullsize-video-bg:after {
-    content: "images/Hacker_code_whiteblack_01_Videvo.mov";
-    background-image: "images/Hacker_code_whiteblack_01_Videvo.mov"; background-size: 3px 3px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-.fullsize-video-bg, .inner { 
-    display: table;
-    width: 100%;
-    max-width: 24em;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0; position: relative; z-index: 2; text-shadow: 0 1px 5px rgba(0,0,0,.5); }
-.fullsize-video-bg, .inner > div { text-align: center; display: table-cell; vertical-align: middle; padding: 0 2em; }
 
 /* Row */
 
