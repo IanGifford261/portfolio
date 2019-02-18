@@ -44,10 +44,19 @@
 
 /* Container */
 
-.container {
+.container{
 margin: 0 auto;
 max-width: 100%;
 width: 1400px;
+}
+.video {
+    position: relative; 
+    width: 25em; 
+    height: 25em; 
+    overflow: hidden; 
+    opacity: 0.5;
+    z-index: auto;
+
 }
 
 /* Row */
@@ -2006,7 +2015,7 @@ table tfoot {
 
     /* Header */
 
-        #header {
+        #header{
             -moz-backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
             -ms-backface-visibility: hidden;
